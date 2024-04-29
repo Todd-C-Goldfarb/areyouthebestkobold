@@ -15,11 +15,28 @@ When a gold coin is added by a user, a websocket broadcast is sent out to show t
 
 ## Building the Project
 
-To build the project, clone the repository and make sure you have the latest **npm** and **pip**.
-**requirements.txt** contains all of the required dependencies, install the requirements.txt using pip.
-When the project has the required dependencies, you can run **npm start** to test the site on localhost:3000
+To build the project, follow these steps:
 
-If you want to contribute, feel free! The branches are protected, so make a pull request and I will review it.
+1. CLONE THE REPOSITORY
+
+```git clone https://Todd-C-Goldfarb/areyouthebestkobold.git```
+
+2. GET THE LATEST PIP AND NPM
+
+```npm install npm@latest -g```
+```pip install --upgrade pip```
+
+3. INSTALL REQUIRED DEPENDENCIES (According to the requirements.txt)
+
+```pip install -r requirements.txt```
+
+4. START LOCAL SITE
+
+```npm start```
+
+5. RUN BUILD (if needed)
+
+```npm run build```
 
 <img src="public/sprites/Basic_Kobold_Running_Coin.gif" width="400" height="600" alt="A sleeping kobold." style="image-rendering: pixelated;">
 
