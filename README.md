@@ -30,3 +30,4 @@ If you want to contribute, feel free! The branches are protected, so make a pull
 - Highlight/Showcase the #1 Kobold
 - Add a throwing animation and more statistics.
 - Add a mechanic related to (stealing from the hoard?)
+- Add a github action to immediately deploy to GAE flex after main update
