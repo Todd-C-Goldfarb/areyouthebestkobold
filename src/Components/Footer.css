@@ -1,0 +1,10 @@
+.Footer {
+    position: fixed; 
+    bottom: 0; 
+    font-size: 1.3vw;
+    right: 0;     
+    width: auto; 
+    padding: 10px;      
+    text-align: center; 
+    z-index: 1000;
+}

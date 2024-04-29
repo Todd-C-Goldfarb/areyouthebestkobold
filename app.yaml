@@ -1,0 +1,23 @@
+runtime: python
+env: flex
+
+runtime_config:
+    python_version: 3
+    
+entrypoint: python main.py
+
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 2
+
+
+
+handlers:
+# Serve all static files with url starting with /static
+- url: /(static/.+)
+  static_files: build/\1
+  upload: build/static/.+
+
+# Serve any other urls by the application
+- url: /.*
+  script: auto

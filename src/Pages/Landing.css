@@ -1,0 +1,232 @@
+.Landing {
+    height: 100vh;
+    animation: fadeIn 1s ease forwards;
+}
+
+.optionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.welcomeTitle {
+    position: fixed;
+    font-family: 'pixeloid-sans-bold', sans-serif;
+
+    font-size: 3vw;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    text-shadow: 0 2px 2px #636363, 
+      -2px 5px 1px #7e7e7e,
+      -4px 8px 1px #979797, 
+      -6px 11px 1px #a2a2a2, 
+      -8px 14px 1px #aeaeae, 
+      -10px 17px 1px #b5b5b5, 
+      -12px 20px 1px #bebebe, 
+      -14px 23px 1px #cecece, 
+      -16px 26px 1px #dbdbdb, 
+      -18px 29px 1px #dfdfdf;
+}
+
+.inputText {
+    border: 3px solid #000;
+    margin: 5px;
+    border-radius: 0;
+    height: 5vh;
+    line-height: normal;
+    color: #282828;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    user-select: auto;
+    font-family: inherit;
+    font-size: 1vw;
+}
+
+.inputText:focus {
+    border: 3px solid yellow;
+}
+
+
+.inputButton {
+    outline: 0;
+    cursor: pointer;
+    border: 2px solid #000;
+    margin: 7.5px;
+    border-radius: 0;
+    color: #000;
+    background: #fff;
+    font-family: inherit;
+    font-size: 1vw;
+    text-align:center;
+    transition-duration: .15s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
+
+.inputButton:hover {
+    background: rgb(251, 193, 245);
+}
+
+
+.explanationText {
+    position: fixed;
+    top:80%;
+    font-size: 1.25vw;
+    font-family: 'pixeloid-sans-bold', sans-serif;
+}
+/* ------------------ LOGIN-RELATED ------------------ */
+
+.loginContainer {
+    width: 31vw;
+    height: 60vh;
+}
+
+
+.loginHeader {
+    font-size: 2vw;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    display: block;
+}
+
+.loginForm {
+    margin-bottom: 25%;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.loginButton {
+    margin: 5%;
+    display: block;
+}
+
+/* ------------------ CENTERSTRIP-RELATED ------------------ */
+
+.koboldContainer {
+    width: 20vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.koboldAnimation {
+    width: 125%;
+    image-rendering: pixelated;
+    height: auto;
+}
+
+/* ------------------ SIGNUP-RELATED ------------------ */
+
+.createContainer {
+    width: 31vw;
+    height: 60vh;
+}
+
+.createHeader {
+    font-size: 2vw;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    display: block;
+}
+
+.createForm {
+    margin-bottom: 25%;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.createInputUsername {
+    margin: 5%;
+    display: block;
+}
+
+.createInputPassword {
+    margin: 5%;
+    display: block;
+}
+
+.createButton {
+    margin: 5%;
+}
+
+.createUsernameGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.createPasswordGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorBox {
+    margin: 5%;
+    color: red;
+}
+
+/* ------------------ CSS ANIMATIONS ------------------ */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    75% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Apply animation to error message, used as a trigger */
+.errorMessage {
+    animation: shake 0.5s ease-in-out;
+}
