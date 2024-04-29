@@ -1,5 +1,5 @@
 ### Are You the Best Kobold?
-![GoldHoardIdle](https://github.com/Todd-C-Goldfarb/areyouthebestkobold/assets/132838573/ab82328a-9b69-4fcd-b622-6ac4c0a6ca29)
+<img src="public/sprites/GoldHoardIdle.gif" width="600" height="600" alt="A giant dragon!" style="image-rendering: pixelated;">
 
 https://www.areyouthebestkobold.com
 
@@ -10,7 +10,7 @@ When a gold coin is added by a user, a websocket broadcast is sent out to show t
 **PASSWORDS CANNOT BE RECOVERED, AND ARE IMMEDIATELY ENCRYPTED USING BCRYPT AND NEVER SENT IN RAW FORMAT**
 **NOT EVEN I WANT ACCESS TO YOUR PASSWORD!**
 
-![SleepingKobold](https://github.com/Todd-C-Goldfarb/areyouthebestkobold/assets/132838573/dcb01f3a-a399-4643-a6c8-7c532c0d3326)
+<img src="public/sprites/SleepingKobold.gif" width="600" height="600" alt="A sleeping kobold." style="image-rendering: pixelated;">
 
 ## Building the Project
 
@@ -20,7 +20,7 @@ When the project has the required dependencies, you can run **npm start** to tes
 
 If you want to contribute, feel free! The branches are protected, so make a pull request and I will review it.
 
-![Basic_Kobold_Running_Coin](https://github.com/Todd-C-Goldfarb/areyouthebestkobold/assets/132838573/41400e3c-69ac-4c5a-9669-c3b55f9c039e)
+<img src="public/sprites/Basic_Kobold_Running_Coin.gif" width="400" height="600" alt="A sleeping kobold." style="image-rendering: pixelated;">
 
 ## To-Do (At Some Point)
 - Migrate the environment to Python 3.11, as GAE Flex is going to deprecate <3.11.
