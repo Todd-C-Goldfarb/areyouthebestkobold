@@ -9,7 +9,7 @@ client = datastore.Client()
 
 app = Flask(__name__, static_folder='build', static_url_path='/')
 CORS(app)
-socketio = SocketIO(app, cors_allowed_origins=["http://localhost:3000","https://kobold-website-421221.wl.r.appspot.com", "https://areyouthebestkobold.com])
+socketio = SocketIO(app, cors_allowed_origins=["http://localhost:3000","https://kobold-website-421221.wl.r.appspot.com", "https://areyouthebestkobold.com"])
 
 ## DEBUG MODE: Set to false for production
 debug_mode = False
