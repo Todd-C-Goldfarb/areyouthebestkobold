@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+### Are You the Best Kobold?
+![GoldHoardIdle](https://github.com/Todd-C-Goldfarb/areyouthebestkobold/assets/132838573/ab82328a-9b69-4fcd-b622-6ac4c0a6ca29)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://www.areyouthebestkobold.com
 
-## Available Scripts
+This website is a small side project showcasing full-stack development. It utilizes React for the frontend, Flask (Python) for the backend, Websockets, and Google Cloud Platform.
+The idea is pretty simple -- as a Kobold, can you contribute the most amount of gold to the Dragon Hoard?
+When a gold coin is added by a user, a websocket broadcast is sent out to show that user's real-time contribution to all other current users. Try it!
 
-In the project directory, you can run:
+**PASSWORDS CANNOT BE RECOVERED, AND ARE IMMEDIATELY ENCRYPTED USING BCRYPT AND NEVER SENT IN RAW FORMAT**
+**NOT EVEN I WANT ACCESS TO YOUR PASSWORD!**
 
-### `npm start`
+![SleepingKobold](https://github.com/Todd-C-Goldfarb/areyouthebestkobold/assets/132838573/dcb01f3a-a399-4643-a6c8-7c532c0d3326)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Building the Project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To build the project, clone the repository and make sure you have the latest **npm** and **pip**.
+**requirements.txt** contains all of the required dependencies, install the requirements.txt using pip.
+When the project has the required dependencies, you can run **npm start** to test the site on localhost:3000
 
-### `npm test`
+If you want to contribute, feel free! The branches are protected, so make a pull request and I will review it.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Basic_Kobold_Running_Coin](https://github.com/Todd-C-Goldfarb/areyouthebestkobold/assets/132838573/41400e3c-69ac-4c5a-9669-c3b55f9c039e)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## To-Do (At Some Point)
+- Migrate the environment to Python 3.11, as GAE Flex is going to deprecate <3.11.
+- Optimize the site for mobile layouts.
+- Account Kobold Customization
+- Highlight/Showcase the #1 Kobold
+- Add a throwing animation and more statistics.
+- Add a mechanic related to (stealing from the hoard?)
