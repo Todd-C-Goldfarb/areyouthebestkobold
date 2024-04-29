@@ -8,6 +8,7 @@ The idea is pretty simple -- as a Kobold, can you contribute the most amount of 
 When a gold coin is added by a user, a websocket broadcast is sent out to show that user's real-time contribution to all other current users. Try it!
 
 **PASSWORDS CANNOT BE RECOVERED, AND ARE IMMEDIATELY ENCRYPTED USING BCRYPT AND NEVER SENT IN RAW FORMAT**
+
 **NOT EVEN I WANT ACCESS TO YOUR PASSWORD!**
 
 <img src="public/sprites/SleepingKobold.gif" width="600" height="600" alt="A sleeping kobold." style="image-rendering: pixelated;">
